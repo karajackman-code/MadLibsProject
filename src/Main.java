@@ -25,7 +25,7 @@ public class Main {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		// YOUR CODE GOES HERE!!!!
-		
+		System.out.println("State an adjective that starts with s and ends with y");
 		
 		
 		
