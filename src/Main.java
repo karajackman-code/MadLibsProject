@@ -26,15 +26,37 @@ public class Main {
 		Scanner in = new Scanner(System.in);
 		// YOUR CODE GOES HERE!!!!
 		System.out.println("State an adjective that starts with s and ends with y");
+		String adjs1 = in.nextLine();
+		System.out.println("Give me a noun that starts with s");
+		String nouns1 = in.nextLine();
+		System.out.println("Give me an adjective");
+		String adj = in.nextLine();
+		System.out.println("Name a sport");
+		String sport1 = in.nextLine();
+		System.out.println("Name a famous person");
+		String person1 = in.nextLine();
+		System.out.println("State a whole number (anything over 10)");
+		int price1 = in.nextInt();
+		in.nextLine();
+		System.out.println("Give me an adjective");
+		String adj1 = in.nextLine();
+		System.out.println("State a type of shoe");
+		String shoe1 = in.nextLine();
+		System.out.println("Name an authority figure in your life");
+		String person2 = in.nextLine();
+		System.out.println("Give me a food");
+		String food1 = in.nextLine();
+		System.out.println("State an adjective");
+		String adj2 = in.nextLine();
+		System.out.println("State a past tense verb");
+		String verb1 = in.nextLine();
+		System.out.println("Give me a noun");
+		String noun1 = in.nextLine();
+		System.out.println("State a verb");
+		String verb2 = in.nextLine();
 		
-		
-		
-		
-		
-		
-		
-		
-		
+		System.out.println("I was strolling through my local mall, when something in the window of the "+adjs1+" "+nouns1+" store caught my eye. In the window was a "+adj+" display for "+person1+"'s");
+		System.out.println("new "+sport1+" sneakers for only $"+price1+".99! Looking down at my "+adj1+" "+shoe1+", I knew that I neeeded to buy "+person1+"'s new shoes." );
 		in.close();//Don't forget to clean up after yourselves!
 	}
 
