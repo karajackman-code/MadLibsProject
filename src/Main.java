@@ -35,7 +35,7 @@ public class Main {
 		String sport1 = in.nextLine();
 		System.out.println("Name a famous person");
 		String person1 = in.nextLine();
-		System.out.println("State a whole number (anything over 10)");
+		System.out.println("State a whole number (anything over 0)");
 		int price1 = in.nextInt();
 		in.nextLine();
 		System.out.println("Give me an adjective");
@@ -52,11 +52,14 @@ public class Main {
 		String verb1 = in.nextLine();
 		System.out.println("Give me a noun");
 		String noun1 = in.nextLine();
-		System.out.println("State a verb");
+		System.out.println("State a past tense verb again");
 		String verb2 = in.nextLine();
 		
-		System.out.println("I was strolling through my local mall, when something in the window of the "+adjs1+" "+nouns1+" store caught my eye. In the window was a "+adj+" display for "+person1+"'s");
-		System.out.println("new "+sport1+" sneakers for only $"+price1+".99! Looking down at my "+adj1+" "+shoe1+", I knew that I neeeded to buy "+person1+"'s new shoes." );
+		System.out.println("I was strolling through my local mall, when something in the window of the "+adjs1+" "+nouns1+" shoe store caught my eye. In the window was a "+adj+" display for "+person1+"'s");
+		System.out.println("new "+sport1+" sneakers for only $"+price1+".99! Looking down at my "+adj1+" "+shoe1+", I knew that I neeeded to buy new shoes, "+person1+"'s shoes. I pulled out my wallet to find nothing inside,");
+		System.out.println("so I grabbed my phone to call my "+person2+", and ask for money. They graciously agreed to send me enough money for the shoes, plus a/an/some "+food1+" for my bus ride home.");
+		System.out.println("I grabbed the "+adj2+" shoe box off of the shelf, and "+verb1+" all of the way to the cashier. The woman working there smelled like (a/an) "+noun1+", in a good way. She took");
+		System.out.println("my money and gave me a bag with my new shoes inside. I "+verb2+" out of the store with swag, and was able to wear the best "+sport1+" shoes on the market.");
 		in.close();//Don't forget to clean up after yourselves!
 	}
 
